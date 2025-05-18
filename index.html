@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>VLSI Blog List</title>
     <style>
         body {
@@ -29,9 +29,21 @@
         a {
             text-decoration: none;
             color: #2980b9;
+            cursor: pointer;
         }
         a:hover {
             text-decoration: underline;
+        }
+        /* Nested list inside Immediate reasoning */
+        li > ul {
+            margin-top: 6px;
+            margin-left: 20px;
+            padding: 10px;
+            background-color: #eef6fc;
+            border-radius: 5px;
+        }
+        li > ul li {
+            margin-bottom: 8px;
         }
     </style>
 </head>
@@ -52,7 +64,6 @@
             <li><a href="https://verilog-meetup.com/2024/06/16/focus-on-microarchitecture/" target="_blank">Verilog Meetup</a></li>
             <li><a href="https://newsletter.quicksilicon.in/posts" target="_blank">Silicon Notes</a></li>
             <li><a href="https://lukasvik.io/" target="_blank">Lucas Vik Blog</a></li>
-            
         </ul>
     </section>
 
@@ -63,22 +74,20 @@
         </ul>
     </section>
 
-    <section id="RISC-V">
-        <h2>RISCV</h2>
+    <section id="riscv">
+        <h2>RISC-V</h2>
         <ul>
             <li><a href="https://github.com/riscv/learn?tab=readme-ov-file" target="_blank">RISC-V Learn</a></li>
             <li><a href="https://dejazzer.com/coen2710/lectures/RISC-V-Reference-Data-Green-Card.pdf" target="_blank">RISC-V Green Card 1</a></li>
             <li><a href="https://www.cl.cam.ac.uk/teaching/1617/ECAD+Arch/files/docs/RISCVGreenCardv8-20151013.pdf" target="_blank">RISC-V Green Card 2</a></li>
             <li>Immediate reasoning
                 <ul>
-                  <li><a href="https://www.youtube.com/watch?v=a7EPIelcckk" target="_blank">Why are RISC-V Immediates so weird? (Fanout Perspective) </a></li>
-                  <li><a href="https://www.youtube.com/watch?v=r8fLbbkScg0" target="_blank">Immediate Encodings </a></li>
+                  <li><a href="https://www.youtube.com/watch?v=a7EPIelcckk" target="_blank">Why are RISC-V Immediates so weird? (Fanout Perspective)</a></li>
+                  <li><a href="https://www.youtube.com/watch?v=r8fLbbkScg0" target="_blank">Immediate Encodings</a></li>
                 </ul>
             </li>
         </ul>
     </section>
 
-
 </body>
 </html>
-
